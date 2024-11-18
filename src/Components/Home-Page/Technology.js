@@ -13,7 +13,7 @@ function Technology() {
         <Col className="first_col col-lg-4 col-md-12 order-md-2 order-lg-1">
           <div className="technology_content">
             <div className="technology_heading">
-              <h2>Making Technology Transformations Simple</h2>
+              <h2>Making Technology Transformations</h2>
             </div>
             <div className="technology_paragraph">
               <p>
