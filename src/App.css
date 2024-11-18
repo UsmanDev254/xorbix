@@ -1,0 +1,475 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+/* My Project Css */
+
+h1,h2,h3,h4{
+  font-weight: 900 !important;
+}
+
+p{
+  font-weight: 400 !important;
+}
+
+
+header {
+  margin-bottom: -100px;
+}
+
+button.navbar-toggler.collapsed {
+  background: #fff;
+}
+.navbar_parent {
+  z-index: 9999999999;
+}
+
+.nabar_inner a {
+  font-weight: 700;
+  color: #fff;
+}
+
+.nabar_inner a:hover {
+  color: #FF8A00;
+}
+
+
+
+/* HOme Banner Css */
+
+.banner_main {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.banner_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2; /* Make sure the video is the lowest layer */
+}
+
+.banner_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+  z-index: -1; /* Sits above the video but below the content */
+}
+
+.banner_child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.banner_child h1 {
+  font-weight: 900;
+}
+
+
+/* Technology Section custom styling */
+
+.first_col {
+  background: #022976;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 2% !important;
+}
+
+.technology_heading h2 {
+  font-size: 30px !important;
+  text-transform: uppercase;
+}
+
+.technology_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+.content_box_img {
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.second_col.technology_img , .content_box_img  {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  padding: 100px !important;
+
+}
+
+.technology_partner_heading h2 , h2.industry_heading {
+  font-size: 50px !important;
+  text-transform: uppercase;
+  color: #E0E0E0;
+}
+.technology_partner_col{
+  padding: 2% !important;
+}
+
+
+/* Home page Tabs Section custom styling */
+
+.services_heading h2 {
+  font-size: 50px !important;
+  text-transform: uppercase;
+  color: #E0E0E0;
+}
+
+.xorbix_services_main , .xorbix_services_content_main{
+  padding: 5% !important;
+  
+}
+
+.xorbix_services_content_main{
+  background-color: #F9F9F9 !important;
+}
+
+
+.nav_items_main{
+  padding-top: 5% !important;
+  gap: 10px !important;
+}
+
+.nav_items_main .nav-item a{
+  font-size: 20px !important;
+}
+
+.content_box {
+  width: 50%;
+  padding: 4% 4% !important;
+  background: #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border: 1px solid #0000001c;
+  text-align: left;
+}
+
+.content_box h2 {
+  font-size: 20px;
+}
+
+
+/* Clients componenet css */
+
+.client_logo_img img {
+  width: 70%;
+}
+
+.clients_main {
+  background: #022976;
+  padding: 3% 2% !important;
+}
+
+
+.glance_col{
+  position: relative;
+  background-color: #022976;
+  padding: 0px !important;
+  min-height: 300px;
+}
+
+.devider_inner {
+  background: #FF8A00 !important;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glance_heading {
+  padding: 0px 12px;
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+
+
+.client_least_heading h4 {
+  color: #022976 !important;
+  font-size: 20px;
+}
+
+.client_counter_main{
+  position: relative;
+}
+
+.clients_counter_inner {
+  padding: 5%;
+}
+
+
+/* Industries Section Custom Styling */
+
+.custom-list-background-switcher {
+  transition: 1s;
+}
+
+.custom-hover-switcher-content {
+  color: #fff;
+}
+
+.custom-hover-switcher-row {
+  min-height: 500px;
+  background: #0000005c;
+  width: 100%;
+}
+
+.custom-hover-switcher-title h2 {
+  font-size: 24px;
+}
+
+.industry_btn {
+  padding: 30px 0px;
+}
+
+
+
+
+/* Testimonial Carousel Section Custom styling */
+
+.carousel-caption {
+  position: static !important;
+}
+
+img.testimonial_img {
+  width: 100%;
+  height: 200px;
+}
+
+.carousel-indicators {
+  bottom: -10px !important;
+}
+
+
+.testimonial_content_row_main {
+  padding: 50px;
+  background: #F3F3F3;
+}
+
+.carousel_parent .carousel-inner {
+  position: relative;
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.carousel_parent .carousel-control-prev {
+  left: 50px;
+}
+.carousel_parent .carousel-control-next {
+  right: 50px;
+}
+
+
+.modal{
+  --bs-modal-width: 700px !important;
+}
+
+
+/* Blogs Footer Custom Styling */
+
+.blog_img{
+  width: 100%;
+  height: 300px;
+}
+
+img.blog_img {
+  width: 100%;
+}
+
+.blog_content {
+  background: #022976;
+}
+
+.blog_content h3,.blog_content p {
+  color: #fff;
+}
+
+.blog_content h3 {
+  font-size: 20px;
+}
+
+/* .blog_child {
+  width: 50% !important;
+} */
+
+
+/* Media Curies for Widescreen */
+
+@media screen and (min-width: 1600px) and (max-width: 2560px) {
+  ul.Navbar_list li a {
+    font-size: 20px;
+  }
+
+  .logo_img img {
+    width: 100%;
+  }
+
+  .header_btn button {
+    font-size: 20px;  
+  }
+
+
+  /* Home page Tabs Section custom styling */
+
+  .services_heading h2 {
+    font-size: 50px !important;
+  }
+
+  .content_box h2 {
+    font-size: 30px;
+}
+
+/* Clients componenet css */
+
+.glance_col{
+  min-height: 400px;
+}
+
+
+/* Industry section custom styling */
+
+.custom-hover-switcher-row {
+  min-height: 600px;
+}
+
+
+}
+
+
+
+/* Media curies for Only Mobile  screens */
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
+
+  /* Home page industry section */
+
+  .custom-hover-switcher-column {
+    width: 25%;
+}
+
+  .custom-hover-switcher-title h2 {
+    font-size: 12px;
+  }
+  
+  .custom-hover-switcher-desc p {
+    font-size: 10px;
+  }
+  
+  .industry_btn button {
+    padding: 8px 6px;
+    font-size: 8px !important;
+  }
+
+}
+
+
+
+/* Media Curies combine for Tablet for Mobile */
+
+@media screen and (max-width: 1030px) and (min-width: 320px) {
+
+  /* Header custom stylin */
+
+  .nabar_inner a {
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .nabar_inner a:hover {
+    color: #000;
+  }
+
+  .third_col.technology_partner_col {
+    display: none !important;
+  }
+
+  .content_box {
+    width: 100% !important;
+    height: 200px;
+  }
+
+  .glance_heading {
+    padding: 3% 0%;
+    text-align: center;
+    transform: none;
+  }
+
+  .glance_col{
+    min-height: 0px;
+  }
+
+  .client_counter_main{
+    min-height: 300px;
+  }
+
+  .client_least_heading h4 {
+    font-size: 16px;
+}
+
+/* testimonial  */
+img.testimonial_img {
+  height: 100px;
+}
+
+}
+
+
