@@ -37,7 +37,7 @@ function NavBar() {
                 Insights
               </Nav.Link>
               <Nav.Link as={NavLink} to="/clients" className="navbar_link">
-                Clients
+                Our Clients
               </Nav.Link>
             </Nav>
 
